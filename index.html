@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="광주 튼튼이치과 공식 홈페이지. 야간 및 일요일 진료, 수면임플란트, 교정진료, 턱관절치료, 심미보철." />
+  <title>튼튼이치과 | 광주 야간·일요일 진료</title>
+  <style>
+    :root{--bg:#f6fbf9;--card:#fff;--text:#19332f;--muted:#5f7470;--accent:#58b88f;--accent2:#dff4ea;--line:#dfeae6}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,"Noto Sans KR",sans-serif;color:var(--text);background:var(--bg);line-height:1.65}
+    a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+    header{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:20}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:24px;font-weight:800;letter-spacing:-.5px}.brand span{color:var(--accent)}
+    .menu{display:flex;gap:22px;font-size:15px;color:#35524c}.menu a:hover{color:var(--accent)}
+    .hero{padding:86px 0 64px;background:linear-gradient(135deg,#effaf6 0%,#fff 55%,#e9f7f0 100%)}
+    .hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center}.eyebrow{display:inline-block;background:var(--accent2);color:#2d7f62;padding:7px 12px;border-radius:999px;font-weight:700;font-size:14px}
+    h1{font-size:54px;line-height:1.15;letter-spacing:-2px;margin:20px 0 18px}.lead{font-size:20px;color:var(--muted);max-width:720px}.cta{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn{padding:14px 20px;border-radius:12px;font-weight:700}.btn-primary{background:var(--accent);color:#fff}.btn-ghost{border:1px solid var(--line);background:#fff}
+    .hours{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 14px 40px rgba(42,92,75,.08)}.hours h3{margin:0 0 14px}.hours-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #edf3f0}.hours-row:last-child{border-bottom:none}.sun{color:#d14949;font-weight:800}.night{color:#2d7f62;font-weight:800}
+    section{padding:76px 0}.section-head{text-align:center;margin-bottom:34px}.section-head h2{font-size:34px;letter-spacing:-1px;margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}.card h3{margin:0 0 8px;font-size:20px}.card p{margin:0;color:var(--muted);font-size:15px}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:28px}.panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px}.panel h3{margin-top:0}.list{padding-left:18px;color:var(--muted)}
+    .contact{background:#19332f;color:#fff;border-radius:24px;padding:34px;display:grid;grid-template-columns:1.4fr .6fr;gap:24px;align-items:center}.contact p{color:#cfe0da;margin-bottom:0}.phone{font-size:32px;font-weight:800;text-align:right}
+    footer{padding:34px 0 48px;color:#75857f;font-size:14px}.note{font-size:13px;color:#82918c;margin-top:14px}
+    @media(max-width:900px){.menu{display:none}.hero-grid,.about,.contact{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}h1{font-size:40px}.phone{text-align:left}}
+    @media(max-width:560px){.wrap{padding:0 18px}.hero{padding-top:58px}h1{font-size:34px}.lead{font-size:17px}.cards{grid-template-columns:1fr}.nav{height:64px}.brand{font-size:21px}.phone{font-size:27px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">튼튼이<span>치과</span></a>
+    <nav class="menu">
+      <a href="#clinic">치과소개</a><a href="#treatments">진료과목</a><a href="#hours">진료시간</a><a href="#contact">상담·문의</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">광주 튼튼이치과 공식 홈페이지</span>
+        <h1>편안하고 꼼꼼하게,<br>튼튼한 치아를 오래도록.</h1>
+        <p class="lead">야간 및 일요일 진료를 운영하며, 수면임플란트·교정진료·턱관절치료·심미보철 등 다양한 치과 진료를 제공합니다.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="tel:0623742275">전화상담 062-374-2275</a>
+          <a class="btn btn-ghost" href="#hours">진료시간 보기</a>
+        </div>
+      </div>
+      <div class="hours" id="hours">
+        <h3>진료시간</h3>
+        <div class="hours-row"><span>월요일</span><strong class="night">09:00–21:00</strong></div>
+        <div class="hours-row"><span>화요일</span><strong>09:00–18:30</strong></div>
+        <div class="hours-row"><span>수요일</span><strong class="night">14:00–21:00</strong></div>
+        <div class="hours-row"><span>목요일</span><strong>휴무</strong></div>
+        <div class="hours-row"><span>금요일</span><strong>09:00–18:30</strong></div>
+        <div class="hours-row"><span>토요일</span><strong>09:00–16:00</strong></div>
+        <div class="hours-row"><span class="sun">일요일</span><strong class="sun">10:00–14:00</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="treatments">
+    <div class="wrap">
+      <div class="section-head"><h2>주요 진료</h2><p>환자 상태와 치료 목적에 맞춰 필요한 진료를 안내합니다.</p></div>
+      <div class="cards">
+        <article class="card"><h3>수면임플란트</h3><p>치과치료에 대한 긴장과 부담을 줄이는 방향으로 상담하고 치료계획을 세웁니다.</p></article>
+        <article class="card"><h3>교정진료</h3><p>치열과 교합 상태를 평가하고 개인별 계획에 따라 교정치료를 진행합니다.</p></article>
+        <article class="card"><h3>턱관절치료</h3><p>턱관절 통증, 입 벌림 불편, 이갈이 등 증상을 확인해 필요한 치료를 안내합니다.</p></article>
+        <article class="card"><h3>심미보철</h3><p>기능과 심미를 함께 고려하여 자연스러운 보철치료를 계획합니다.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="clinic">
+    <div class="wrap about">
+      <div class="panel"><h3>튼튼이치과</h3><p>환자분이 치료 과정을 이해할 수 있도록 충분히 설명하고, 필요한 치료를 차분하게 안내하는 것을 중요하게 생각합니다.</p><ul class="list"><li>야간 및 일요일 진료</li><li>환자별 진단과 치료계획</li><li>치료 전후 충분한 설명</li></ul></div>
+      <div class="panel"><h3>오시는 길</h3><p>광주광역시 서구 화정동</p><p class="note">정확한 도로명 주소와 지도는 다음 단계에서 연결하겠습니다.</p><h3 style="margin-top:26px">전화문의</h3><p><strong>062-374-2275</strong></p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact"><div><h2 style="margin:0">예약 및 진료 문의</h2><p>진료 일정과 치료 상담은 전화로 문의해 주세요.</p></div><div class="phone"><a href="tel:0623742275">062-374-2275</a></div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© 튼튼이치과. All rights reserved.<div class="note">※ 홈페이지의 진료 안내는 일반적인 정보이며 실제 치료계획은 진료 후 결정됩니다.</div></div></footer>
+</body>
+</html>
